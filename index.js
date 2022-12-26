@@ -24,7 +24,7 @@ tabEl.addEventListener("click", function(){
 function render(leads) {
     let listItems = ""
     for (let i = 0; i < leads.length; i++) {
-        //wrap the lead in an achor tag(<a>) inside the <li> /* template literals */
+        //wrappin' the lead in an achor tag(<a>) inside the <li> /* template literals */
         listItems += `
         <li>
              <a href='${leads[i]}' target='_blank'>
